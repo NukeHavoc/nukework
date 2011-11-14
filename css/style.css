@@ -54,7 +54,35 @@ table {
 presentation
 */
 
+/* blockify things that the browsers aren't aware of. */
+
+header, footer, nav, article {
+	display:block;
+}
+
+header#nuke-header {
+	display: block;
+}
+
+header#nuke-header {
+	display: block;
+}
+
+nav#primary-nav {
+	background-color: black;
+	width: 600px
+}
+
+nav#utility-nav {
+	background-color: red;
+	font: "Arial";
+	width: 200px
+}
+
+nav a {
+	color: white;
+}
+
 h1 {
 	color:red;
 }
-
