@@ -60,32 +60,50 @@ header, footer, nav, article {
 	display:block;
 }
 
+body { 
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat-none;
+}
+
 header#nuke-header {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
-	border: 1px solid red;
-	height: 200px;
 }
 
-header#nuke-header {
-	display: block;
+header#nuke-header img#logo {
+	float: left;
+}	
+
+div#header-nav-forcefield {
+	width: 675px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav#primary-nav {
 	width: 550px;
+	height: 25px;
 	background-color: black;
-	margin: 5px;
-	border: 1px solid purple;
 	float: left;
+
 }
 
 nav#utility-nav {
 	width: 125px;
+	height: 25px;
 	background-color: red;
-	margin: 5px;
-	border: 1px solid purple;
+	float: right;
+}
+
+div#main-forcefield {
+	background-color: #FFF;
+	border: 2px solid #CCC;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
