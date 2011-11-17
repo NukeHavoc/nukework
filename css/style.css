@@ -70,7 +70,6 @@ header#nuke-header {
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
-	border: 2px solid purple;
 
 }
 
@@ -88,7 +87,7 @@ div#header-nav-forcefield {
 nav#primary-nav {
 	width: 550px;
 	height: 25px;
-	background-color: black;
+	background-color: #000;
 	float: left;
 
 }
@@ -96,7 +95,7 @@ nav#primary-nav {
 nav#utility-nav {
 	width: 125px;
 	height: 25px;
-	background-color: red;
+	background-color: #CF0700;
 	float: right;
 }
 
@@ -119,23 +118,32 @@ nav#primary-nav li, nav#utility-nav li {
 header#nuke-header div#header-logo {
 	width: 348px;
 	height: 90px;
-	border: 1px solid yellow;
 	float: left;
 }
 
 header#nuke-header div#header-quote {
 	width: 225px;
 	height: 90px;
+	padding-top: 10px;
 	margin-left: 358px;
-	border: 1px solid red;
-
 }
 
 header#nuke-header div#header-connect {
 	width: 150px;
 	float: right;
-	border: 1px solid blue;
 }
+
+
+div#body-content {
+
+}
+
+div#body-content div#top-fold div#feature {
+	background-color: #E9E9E9;
+
+}
+
+
 
 
 /* 
@@ -163,7 +171,16 @@ header#nuke-header div#header-quote {
 
 
 h1 {
-	color:red;
+	color: #CF0700;
+}
+
+em {
+	font-style: italic;
+}
+
+header#nuke-header div#header-quote {
+	line-height: 1.2em;
+
 }
 
 
