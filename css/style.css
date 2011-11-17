@@ -70,6 +70,8 @@ header#nuke-header {
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
+	border: 2px solid purple;
+
 }
 
 header#nuke-header img#logo {
@@ -114,6 +116,27 @@ nav#primary-nav li, nav#utility-nav li {
 
 }
 
+header#nuke-header div#header-logo {
+	width: 348px;
+	height: 90px;
+	border: 1px solid yellow;
+	float: left;
+}
+
+header#nuke-header div#header-quote {
+	width: 225px;
+	height: 90px;
+	margin-left: 358px;
+	border: 1px solid red;
+
+}
+
+header#nuke-header div#header-connect {
+	width: 150px;
+	float: right;
+	border: 1px solid blue;
+}
+
 
 /* 
 text
@@ -133,6 +156,11 @@ nav#primary-nav a, nav#utility-nav a {
 	color: white;
 	text-decoration: none;
 }
+
+header#nuke-header div#header-quote {
+	font-size: smaller;
+}
+
 
 h1 {
 	color:red;
