@@ -50,6 +50,12 @@ table {
 	border-spacing: 0;
 }
 
+p {
+	line-height: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 /* 
 presentation
 */
@@ -69,8 +75,7 @@ header#nuke-header {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 800px;
-
+	width: 825px;
 }
 
 header#nuke-header img#logo {
@@ -78,14 +83,14 @@ header#nuke-header img#logo {
 }	
 
 div#header-nav-forcefield {
-	width: 675px;
+	width: 625px;
 	height: 25px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 nav#primary-nav {
-	width: 550px;
+	width: 500px;
 	height: 25px;
 	background-color: #000;
 	float: left;
@@ -102,11 +107,10 @@ nav#utility-nav {
 div#main-forcefield {
 	background-color: #FFF;
 	border: 2px solid #CCC;
-	width: 800px;
+	width: 825px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
 nav#primary-nav li, nav#utility-nav li {
 	display: inline-block;
@@ -135,16 +139,69 @@ header#nuke-header div#header-connect {
 
 
 div#body-content {
-
+	min-height: 500px;
 }
 
 div#body-content div#top-fold div#feature {
+	/* background-color: #E9E9E9; */
 	background-color: #E9E9E9;
-
+	width: 570px;
+	margin-left: 10px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	min-height: 320px;
+	float: left;
 }
 
+div#feature figure {
+	width: 300px;
+	float: left;
+}
 
+div#feature figure figcaption {
+	background-color: #666;
+	width: 290px;
+	padding: 5px; 
+	min-height: 25px;
+}
 
+div#feature-block {
+	width: 255px;
+	margin-left: 310px;
+}
+
+div#feature-body {
+	margin-top: 10px;
+}
+
+div#feature-more {
+	margin-top: 1.5em
+	margin-bottom: 1.5em
+}
+
+div#side-feature {
+	margin-left: 620px;
+	width: 200px;
+	
+}
+
+div#side-feature .side-feature-block {
+	min-height: 100px;
+	margin-bottom: 10px;
+}
+
+div#side-feature figure { 
+	float: left;
+	width: 100px;
+	margin-right: 5px; 
+}
+
+#bottom-fold {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 /* 
 text
@@ -171,8 +228,27 @@ header#nuke-header div#header-quote {
 
 
 h1 {
-	color: #CF0700;
+	color: #000;
 }
+
+h1 a {
+	color: #CF0700;
+	text-decoration: none;
+}
+
+a {
+	color: #CF0700;
+
+}
+
+div#feature h1 {
+ 	font-size: 170%;
+}
+
+div.side-feature-block h1 {
+ 	font-size: 120%;
+}
+
 
 em {
 	font-style: italic;
@@ -183,7 +259,32 @@ header#nuke-header div#header-quote {
 
 }
 
+.byline {
+	font-size: 70%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	line-height: 1.3em;
+	text-transform: lowercase;
+}
 
+div#feature-more {
+	font-size: 80%;
+}
+
+
+div#feature figure figcaption {
+	color: #FFF;
+	font-size: 80%;
+}
+
+#article-feed h1 {
+	font-size: 120%;
+	line-height: 200%;
+}
+
+p {
+	font-size: 80%;
+}
 
 
 
