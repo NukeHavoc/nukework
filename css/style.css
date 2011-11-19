@@ -110,6 +110,7 @@ div#main-forcefield {
 	width: 825px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 nav#primary-nav li, nav#utility-nav li {
@@ -139,11 +140,10 @@ header#nuke-header div#header-connect {
 
 
 div#body-content {
-	min-height: 500px;
+
 }
 
 div#body-content div#top-fold div#feature {
-	/* background-color: #E9E9E9; */
 	background-color: #E9E9E9;
 	width: 570px;
 	margin-left: 10px;
@@ -198,9 +198,80 @@ div#side-feature figure {
 }
 
 #bottom-fold {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+#bottom-left {
+	width: 455px;
+	padding: 10px;
+	float: left;
+
+}
+
+#bottom-right {
+	width: 320px;
+	margin-left: 500px;
+}
+
+div.ad-block {
+	border: 1px solid gray;
+	background-color: gray;
+	width: 300px;
+	height: 250px;
+}
+
+div.ad-leaderboard {
+	border: 1px solid gray;
+	background-color: gray;
+	width: 728px;
+	height: 90px;
+	margin-left: atuo;
+	margin-right: atuo;	
+}
+
+
+div.clear {
+	clear:both;
+	height: 0;
+}
+
+div.microcontent {
+	background-color: #FFCCCC;
+	-moz-border-radius: 5px;
+	padding: 5px;
+	border-radius: 5px;	
+	width: 100%;
+	margin-bottom: 10px;
+	line-height: 1.2em;
+}
+
+div#bottom-comments {
+	width:150px;
+	float: left;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+div#bottom-popular-stories {
+	margin-left: 150px;
+	width: 150px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+div#bottom-comments ul li, div#bottom-popular-stories ul li {
+ 	margin-bottom: 10px;
+}
+
+div#bottom-comments h1, div#bottom-popular-stories h1 {
+	margin-bottom: 5px;
+}
+
+nav#footer {
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 /* 
@@ -271,20 +342,33 @@ div#feature-more {
 	font-size: 80%;
 }
 
+#bottom-fold h1 {
+	font-size: 110%;
+}
 
 div#feature figure figcaption {
 	color: #FFF;
 	font-size: 80%;
 }
 
-#article-feed h1 {
-	font-size: 120%;
-	line-height: 200%;
+#bottom-fold h1 {
+	font-size: 130%;
 }
+
 
 p {
 	font-size: 80%;
 }
 
+div.microcontent {
+	font-size: 80%;
+}
 
+div#bottom-comments, div#bottom-popular-stories {
+	font-size: 80%;
+}
+
+nav#footer {
+	font-size: 80%;
+}
 
