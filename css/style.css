@@ -217,9 +217,21 @@ figure.article-image figcaption{
 footer
 */
 
+footer#article-footer {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width: 600px;
+	padding: 8px;
+	border-radius: 5px;	
+	background-color: #CCC;
+
+}
+
 nav#footer {
 	text-align: center;
 	margin-bottom: 10px;
+	padding: 5px;
 }
 
 
@@ -508,6 +520,15 @@ div.block ul li {
 	font-size: 80%;
 }
 
+div.block ul li ul li {
+	font-size: 80%;
+}
+
+div.block ul li ul li ul li {
+	font-size: 80%;
+}
+
+
 #body-content p {
 	font-size: 80%;
 	line-height: 1.3em;
@@ -517,4 +538,8 @@ div.block ul li {
 div#article-byline {
 	font-size: 90%;
 	font-weight: bold;	
+}
+
+footer#article-footer {
+	font-size: 80%;
 }
