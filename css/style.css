@@ -57,7 +57,7 @@ p {
 }
 
 /* 
-presentation
+structure
 */
 
 /* blockify things that the browsers aren't aware of. */
@@ -160,8 +160,8 @@ div.block ul {
 }
 
 div#body-content article {
-	border: 1px solid red;
 	margin-left: 10px;
+	margin-right: 10px;
 	width: 600px;
 	float: left;
 }
@@ -171,6 +171,46 @@ div#body-content div#sidebar {
 	width: 190px;
 }
 
+#article-byline {
+	width: 100%;
+}
+
+#article-byline-writer {
+	float: left;
+	margin-right: 5px;
+}
+
+#article-byline-social {
+	margin-left: 200px;
+	width: 300px;
+}
+
+#article-content {
+
+}
+
+#article-aside {
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: right;
+}
+
+#article-ad {
+	margin-top: 15px;
+	width: 250px;
+	height: 250px;
+	background-color: #666;
+}
+
+.article-image {
+
+}
+
+figure.article-image figcaption{
+	background-color: #666;
+	padding: 5px;
+}
 
 
 /* 
@@ -396,7 +436,7 @@ div#feature-more {
 	font-size: 110%;
 }
 
-div#feature figure figcaption {
+figcaption {
 	color: #FFF;
 	font-size: 80%;
 }
@@ -405,10 +445,6 @@ div#feature figure figcaption {
 	font-size: 130%;
 }
 
-
-p {
-	font-size: 80%;
-}
 
 div.microcontent {
 	font-size: 80%;
@@ -435,31 +471,28 @@ presentation: article
 
 article h1 {
 	font-size: 180%;
-	color: #666;
+	color: #333;
 	margin-bottom: .5em;
-	font-weight: bold;
 }
 
 article h2 {
 	font-size: 160%;
-	color: #666;
+	color: #333;
 	margin-bottom: .5em;
-	font-style: italic;
-	font-weight: bold;
 }
 
 article h3 {
 	font-size: 140%;
-	color: #666;
+	color: #333;
 	margin-bottom: .5em;
-	font-weight: bold;
+	font-style: italic;
+
 }
 
 article h4 {
 	font-size: 120%;
-	color: #666;
+	color: #333;
 	margin-bottom: 1em;
-	font-style: bold;
 }
 
 
@@ -475,3 +508,13 @@ div.block ul li {
 	font-size: 80%;
 }
 
+#body-content p {
+	font-size: 80%;
+	line-height: 1.3em;
+	text-indent: 1em;
+}
+
+div#article-byline {
+	font-size: 90%;
+	font-weight: bold;	
+}
