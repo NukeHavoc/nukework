@@ -138,7 +138,8 @@ header#nuke-header div#header-quote {
 }
 
 header#nuke-header div#header-connect {
-	width: 150px;
+	margin-top: 20px;
+	width: 200px;
 	float: right;
 }
 
@@ -181,7 +182,7 @@ div#body-content div#sidebar {
 }
 
 #article-byline-social {
-	margin-left: 200px;
+	margin-left: 220px;
 	width: 300px;
 }
 
@@ -489,22 +490,23 @@ article h1 {
 
 article h2 {
 	font-size: 160%;
-	color: #333;
+	color: #66;
 	margin-bottom: .5em;
 }
 
 article h3 {
 	font-size: 140%;
-	color: #333;
+	color: #666;
 	margin-bottom: .5em;
-	font-style: italic;
 
 }
 
 article h4 {
 	font-size: 120%;
-	color: #333;
-	margin-bottom: 1em;
+	color: #666;
+	font-style: italic;
+	margin-bottom: .5em;
+
 }
 
 
@@ -516,21 +518,44 @@ div.block h1 {
 	padding: 3px;
 }
 
-div.block ul li {
+div.block ul {
 	font-size: 80%;
+	font-weight: bold;
+}
+
+div.block ul li {
+	font-size: 100%;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	line-height: 1.2em;
+}
+
+
+div.block ul li ul {
+	font-weight: normal;
+	font-size: 90%;
 }
 
 div.block ul li ul li {
-	font-size: 80%;
+	list-style-type: circle;
+	padding-left: 0;
+	margin-left: 15px;
 }
 
-div.block ul li ul li ul li {
+div.block ul li ul li ul {
+	font-size: 100%;
+}
+
+div.block div.block-date {
 	font-size: 80%;
+	font-weight: normal;
+	text-transform: lowercase;
+
 }
 
 
 #body-content p {
-	font-size: 80%;
+	font-size: 90%;
 	line-height: 1.3em;
 	text-indent: 1em;
 }
